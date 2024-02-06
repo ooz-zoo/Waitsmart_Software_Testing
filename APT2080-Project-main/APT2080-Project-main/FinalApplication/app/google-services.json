@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "406692148319",
+    "firebase_url": "https://apt2080-login-register-default-rtdb.firebaseio.com",
+    "project_id": "apt2080-login-register",
+    "storage_bucket": "apt2080-login-register.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406692148319:android:5dac593af12b95d5f357ea",
+        "android_client_info": {
+          "package_name": "com.plainpixel.finalapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406692148319-dj9d3ckjka7hi340scuge8bapnfma6jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8DEO8WzVO-6K8ogwGnqJznP-4gdw-Q10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406692148319-dj9d3ckjka7hi340scuge8bapnfma6jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406692148319:android:951684248eb921fdf357ea",
+        "android_client_info": {
+          "package_name": "com.plainpixel.loginregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406692148319-dj9d3ckjka7hi340scuge8bapnfma6jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8DEO8WzVO-6K8ogwGnqJznP-4gdw-Q10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406692148319-dj9d3ckjka7hi340scuge8bapnfma6jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

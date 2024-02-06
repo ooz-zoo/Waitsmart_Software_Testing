@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bg_design"
+    tools:context=".NoInternetPage">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/error"
+        android:padding="15sp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/icon_clock"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OOPS!"
+            android:fontFamily="@font/metropolis_extra_bold"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textColor="@color/MainColor"
+            android:layout_marginTop="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/PrimaryFontColor"
+            android:text="Sorry! The restaurant is currently closed. Please visit us tomorrow. "
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/metropolis_medium"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

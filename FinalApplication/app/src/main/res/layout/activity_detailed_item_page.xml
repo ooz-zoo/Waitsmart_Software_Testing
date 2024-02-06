@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailedItemPage">
+
+    <ImageView
+        android:id="@+id/item_picture"
+        android:layout_width="436dp"
+        android:layout_height="798dp"
+        android:layout_marginTop="-280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_placeholder" />
+
+    <ImageView
+        android:id="@+id/back_arrow"
+        android:layout_width="41dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_arrow_back" />
+
+    <ImageView
+        android:id="@+id/mojitobackground"
+        android:layout_width="435dp"
+        android:layout_height="466dp"
+        android:layout_marginTop="205dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background_xml" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="520dp"
+        android:fontFamily="@font/metropolis_extra_bold"
+        android:text="No Item"
+        android:textColor="@color/PrimaryFontColor"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/item_picture" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="531dp"
+        android:fontFamily="@font/metropolis_extra_bold"
+        android:gravity="center_vertical"
+        android:text="Kes "
+        android:textColor="@color/MainColor"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/item_title"
+        app:layout_constraintTop_toTopOf="@+id/item_picture" />
+
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="99dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="531dp"
+        android:fontFamily="@font/metropolis_extra_bold"
+        android:gravity="center_vertical"
+        android:text="000"
+        android:textColor="@color/MainColor"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/item_title"
+        app:layout_constraintTop_toTopOf="@+id/item_picture" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="92dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/metropolis_bold"
+        android:gravity="center_horizontal"
+        android:text="/piece"
+        android:textSize="13sp"
+        android:textColor="@color/PrimaryFontColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cost" />
+
+    <TextView
+        android:id="@+id/desctext"
+        android:layout_width="362dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="500dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus facilisis ligula vel luctus. Aliquam vitae nisi mauris. Integer lorem tellus, rhoncus sit amet feugiat eget, vulputate sed enim."
+        android:fontFamily="@font/metropolis_medium"
+        android:textColor="@color/PrimaryFontColor"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/minusportion"
+        android:layout_width="65dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/desctext"
+        app:srcCompat="@drawable/ic_minus" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="36dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintStart_toEndOf="@+id/minusportion"
+        app:layout_constraintTop_toBottomOf="@+id/desctext" />
+
+    <ImageView
+        android:id="@+id/plusportion"
+        android:layout_width="56dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toEndOf="@+id/count"
+        app:layout_constraintTop_toBottomOf="@+id/desctext"
+        app:srcCompat="@drawable/ic_plus" />
+
+    <Button
+        android:id="@+id/cart"
+        android:layout_width="385dp"
+        android:layout_height="52dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="750dp"
+        android:background="@color/PrimaryFontColor"
+        android:fontFamily="@font/metropolis_bold"
+        android:text="Add to Cart"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/timeicon"
+        android:layout_width="38dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_clock" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="130dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/metropolis_bold"
+        android:text="Number of cups"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desctext" />
+
+    <TextView
+        android:id="@+id/timetaken"
+        android:layout_width="62dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="344dp"
+        android:fontFamily="@font/metropolis_bold"
+        android:text="00"
+        android:textColorHighlight="@color/PrimaryFontColor"
+        app:layout_constraintStart_toEndOf="@+id/timeicon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="62dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="344dp"
+        android:fontFamily="@font/metropolis_bold"
+        android:text="min"
+        android:textColorHighlight="@color/PrimaryFontColor"
+        app:layout_constraintStart_toEndOf="@+id/timeicon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintStart_toEndOf="@+id/timetaken"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_fire" />
+
+    <TextView
+        android:id="@+id/calories"
+        android:layout_width="64dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="344dp"
+        android:fontFamily="@font/metropolis_bold"
+        android:text="000 kcal"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="34dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintStart_toEndOf="@+id/calories"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_star" />
+
+    <TextView
+        android:id="@+id/stars"
+        android:layout_width="67dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="344dp"
+        android:fontFamily="@font/metropolis_bold"
+        android:text="0.0"
+        app:layout_constraintStart_toEndOf="@+id/star"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="456dp"
+        android:fontFamily="@font/metropolis_bold"
+        android:text="Description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="34dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="192dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_heart" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="420dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_line" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="115dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="696dp"
+        android:fontFamily="@font/metropolis_bold"
+        android:text="Total Cost"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/totalprice"
+        android:layout_width="109dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="692dp"
+        android:fontFamily="@font/metropolis_extra_bold"
+        android:text="Kes 000"
+        android:textColor="@color/MainColor"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="755dp"
+        app:layout_constraintStart_toStartOf="@+id/cart"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/add_to_cart" />
+
+    <ImageView
+        android:id="@+id/shoppingcart"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_shopping_cart" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

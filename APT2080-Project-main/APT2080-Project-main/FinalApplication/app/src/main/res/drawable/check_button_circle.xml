@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- Add a shape for the circle -->
+<item>
+    <shape android:shape="oval">
+
+        <stroke android:color="@color/MainColor"
+            android:width="0.2dp"/>
+    </shape>
+</item>
+
+<!-- Add your existing vector shape as another item -->
+<item
+    android:drawable="@drawable/check_button"
+    android:gravity="center" />
+</layer-list>

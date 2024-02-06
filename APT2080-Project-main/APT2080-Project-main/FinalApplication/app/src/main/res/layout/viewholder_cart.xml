@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+        android:padding="8dp"
+    android:layout_height="wrap_content">
+
+    <!--app:srcCompat="@drawable/tartimg"  -->
+
+    <ImageView
+        android:id="@+id/itemImage"
+        style=""
+        android:layout_width="118dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="4dp"
+        android:src="@mipmap/ic_launcher_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/itemtitle"
+        android:layout_width="136dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/metropolis_extra_bold"
+        android:text="title"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/itemcost"
+        android:layout_width="68dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="45dp"
+        android:text="Kes 000"
+        android:textSize="10sp"
+        android:textColor="@color/MainColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/minusportion"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_minus" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="36dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/plusportion"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_plus" />
+
+    <TextView
+        android:id="@+id/itemtotalcost"
+        android:layout_width="88dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:text="total"
+        android:textAlignment="textEnd"
+        android:textColor="@color/MainColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/deleteitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cart_cancelbutton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

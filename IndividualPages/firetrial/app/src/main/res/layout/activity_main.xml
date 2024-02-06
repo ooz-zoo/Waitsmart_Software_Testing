@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/firsttext"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:text="noches"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/secondtext"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:text="Buenas"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/thirdtext"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:text="Hola"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="-8dp"
+        android:layout_marginEnd="-8dp"
+        android:padding="0dp">
+
+
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textone"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginStart="15dp"
+            android:paddingTop="15dp"
+            android:text="click here"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:max="5"
+            android:numStars="5"
+            android:rating="4.5"
+            android:stepSize="0.5"
+            android:progressTint="@color/colorPrimary"
+            android:layout_marginTop="-15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textone" />
+
+        <TextView
+            android:id="@+id/ratingtext"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:text="4.5"
+            android:textColor="@color/white"
+            android:layout_marginTop="-18dp"
+
+            app:layout_constraintStart_toEndOf="@+id/textone"
+            app:layout_constraintTop_toBottomOf="@+id/textone" />
+
+        <!--IMAGE TWO -->
+
+        <ImageView
+            android:id="@+id/latte"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/lattetext"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginStart="15dp"
+            android:paddingTop="15dp"
+            android:text="Latte"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/latteratingBar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:max="5"
+            android:numStars="5"
+            android:rating="4.5"
+            android:stepSize="0.5"
+            android:progressTint="@color/colorPrimary"
+            android:layout_marginTop="-15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/lattetext" />
+
+        <TextView
+            android:id="@+id/latteratingtext"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:text="4.5"
+            android:textColor="@color/white"
+            android:layout_marginTop="-18dp"
+
+            app:layout_constraintStart_toEndOf="@+id/lattetext"
+            app:layout_constraintTop_toBottomOf="@+id/lattetext" />
+
+        <!--IMAGE 3 -->
+
+        <ImageView
+            android:id="@+id/smoothie"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/smoothietext"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginStart="15dp"
+            android:paddingTop="15dp"
+            android:text="Smoothie"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/smoothieratingBar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:max="5"
+            android:numStars="5"
+            android:rating="4.5"
+            android:stepSize="0.5"
+            android:progressTint="@color/colorPrimary"
+            android:layout_marginTop="-15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/smoothietext" />
+
+        <TextView
+            android:id="@+id/smoothieratingtext"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:text="4.5"
+            android:textColor="@color/white"
+            android:layout_marginTop="-18dp"
+
+            app:layout_constraintStart_toEndOf="@+id/smoothietext"
+            app:layout_constraintTop_toBottomOf="@+id/smoothietext" />
+
+        <!--IMAGE 4 -->
+        <ImageView
+            android:id="@+id/shake"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/shaketext"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginStart="15dp"
+            android:paddingTop="15dp"
+            android:text="Milkshake"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/shakeratingBar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:max="5"
+            android:numStars="5"
+            android:rating="4.5"
+            android:stepSize="0.5"
+            android:progressTint="@color/colorPrimary"
+            android:layout_marginTop="-15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/shaketext" />
+
+        <TextView
+            android:id="@+id/shakeratingtext"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:text="4.5"
+            android:textColor="@color/white"
+            android:layout_marginTop="-18dp"
+
+            app:layout_constraintStart_toEndOf="@+id/shaketext"
+            app:layout_constraintTop_toBottomOf="@+id/shaketext" />
+
+
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
