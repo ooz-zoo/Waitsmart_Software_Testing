@@ -1,1 +1,2 @@
-# WaitSmart Software Testing - Unit tests and all
+# WaitSmart Software Testing
+
