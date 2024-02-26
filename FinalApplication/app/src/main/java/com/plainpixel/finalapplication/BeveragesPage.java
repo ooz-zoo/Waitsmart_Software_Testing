@@ -27,7 +27,7 @@ public class BeveragesPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_beverages_page);
+         setContentView(R.layout.activity_beverages_page);
 
         text_one = findViewById(R.id.text_one);
         text_two = findViewById(R.id.text_two);
