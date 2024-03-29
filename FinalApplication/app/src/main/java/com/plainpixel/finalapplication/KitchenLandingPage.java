@@ -1,10 +1,5 @@
 package com.plainpixel.finalapplication;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,6 +12,13 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -25,6 +27,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -41,6 +44,7 @@ public class KitchenLandingPage extends AppCompatActivity {
     private Handler handler;
     private Runnable refreshRunnable;
 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -145,6 +149,8 @@ public class KitchenLandingPage extends AppCompatActivity {
             }
         });
     }
+
+
 
     private class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.OrderViewHolder> {
         @NonNull
@@ -293,7 +299,7 @@ public class KitchenLandingPage extends AppCompatActivity {
         verticalBarImageView.setVisibility(View.VISIBLE);
     }
 
-    private static class OrderItem {
+    static class OrderItem {
         private String transactionId;
         private String userId;
         private List<Item> items;
