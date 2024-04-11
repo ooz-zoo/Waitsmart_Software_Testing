@@ -4,9 +4,9 @@
 
 # CLICK ON FinalApplication folder 
 
-# WITHIN THE final application folder CLICK ON app folder 
+# Within the final application folder CLICK ON app folder 
 
-# WITHIN THE app folder CLICK ON src folder 
+# Within the app folder CLICK ON src folder 
 
-# within the src folder CLICK ON androidTest/java/com/plainpixel/finalapplication folder 
+# Within the src folder CLICK ON androidTest/java/com/plainpixel/finalapplication folder 
 
