@@ -1,12 +1,12 @@
 # WaitSmart Software Testing
 
-# NAVIGATE TO TEST CASES
+# FOLLOW THE STEPS BELOW TO NAVIGATE TO TEST CASES
 
 # CLICK ON FinalApplication folder 
 
-# CLICK ON app folder 
+# WITHIN THE final application folder CLICK ON app folder 
 
-# CLICK ON src folder 
+# WITHIN THE app folder CLICK ON src folder 
 
-# CLICK ON androidTest/java/com/plainpixel/finalapplication folder 
+# within the src folder CLICK ON androidTest/java/com/plainpixel/finalapplication folder 
 
