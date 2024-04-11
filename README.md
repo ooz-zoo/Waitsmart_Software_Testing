@@ -2,11 +2,11 @@
 
 # NAVIGATE TO TEST CASES
 
-# GO TO FinalApplication folder 
+# CLICK ON FinalApplication folder 
 
-# GO TO app folder 
+# CLICK ON app folder 
 
-# GO TO src folder 
+# CLICK ON src folder 
 
-# GO TO androidTest/java/com/plainpixel/finalapplication folder 
+# CLICK ON androidTest/java/com/plainpixel/finalapplication folder 
 
