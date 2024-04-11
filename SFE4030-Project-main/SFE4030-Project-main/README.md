@@ -1,4 +1,4 @@
-# APT2080-Project - WaitSmart
+# SFE4030-Project - WaitSmart
 
 ## Chapter 1 - Introduction to the Project
 The invention of computers and advancement in technology has brought about automation of various tasks in different industries such as use of robots in cafeterias for order processing. The WaitSmart queue management documentation offers a comprehensive guide which provides insights into the features and implementation of WaitSmart. It is a system designed to streamline the process of remotely ordering and picking up food from the cafeteria. It provides a productive way to arrange and manage customer waiting areas, lessening customer annoyance and raising overall service quality.
